@@ -1,5 +1,5 @@
 def open_files(filename):
-    """open files 打开文件"""
+    """open files"""
     try:
         with open(filename) as file_object:
             contents = file_object.read()
